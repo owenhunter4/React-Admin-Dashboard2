@@ -80,5 +80,12 @@ var routes = [
     component: <Register />,
     layout: "/auth",
   },
+  {
+    path: "/register",
+    name: "test3",
+    icon: "ni ni-circle-08 text-pink",
+    component: <Register />,
+    layout: "/auth",
+  },
 ];
 export default routes;
